@@ -1,0 +1,22 @@
+# Auto-detect text files and handle line endings
+* text=auto
+
+# Force Unix-style LF endings for source code (preferred in cross-platform projects)
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Rust
+*.rs text eol=lf
+Cargo.toml text eol=lf
+Cargo.lock text eol=lf
+
+# Windows-specific files can stay CRLF
+*.bat text eol=crlf

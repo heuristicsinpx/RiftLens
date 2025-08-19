@@ -1,0 +1,70 @@
+### Node / React ###
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+### Build outputs ###
+dist/
+build/
+.next/
+out/
+.vite/
+*.tsbuildinfo
+
+### Tailwind / PostCSS ###
+.postcssrc
+tailwind.config.js
+tailwind.config.cjs
+tailwind.config.ts
+
+### TypeScript ###
+*.tsbuildinfo
+
+### Environment variables ###
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+### Logs ###
+*.log
+logs/
+debug.log
+error.log
+
+### OS / Editor ###
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+### Rust / Tauri ###
+/target/               # Rust build output
+**/*.rs.bk             # Rust backup files
+Cargo.lock             # lockfile (optional, can be included if you want exact builds)
+src-tauri/target/
+src-tauri/.cargo/
+src-tauri/Cargo.lock   # same as above
+src-tauri/.tauri-dev/  # dev-only artifacts
+
+### Tauri specific ###
+src-tauri/gen/
+src-tauri/icons/
+
+### Testing ###
+coverage/
+.jest/
+.cypress/
+playwright-report/
+test-results/
+
+### Windows ###
+ehthumbs.db
+Desktop.ini
+
