@@ -55,7 +55,6 @@ src-tauri/.tauri-dev/  # dev-only artifacts
 
 ### Tauri specific ###
 src-tauri/gen/
-src-tauri/icons/
 
 ### Testing ###
 coverage/
