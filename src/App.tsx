@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import GameLookup from "./components/GameLookup";
+import DraftPage from "./components/DraftPage";
 
 
 const Draft = () => <h1 className="p-6">Draft Page</h1>;
@@ -19,7 +20,7 @@ function App() {
     
       <Routes>
         <Route path="/" element={<Navigate to="/draft" replace />} />
-        <Route path="/draft" element={<Draft />} />
+        <Route path="/draft" element={<DraftPage />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/lookup" element={<GameLookup />} />
       </Routes>

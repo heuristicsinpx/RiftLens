@@ -14,12 +14,6 @@ out/
 .vite/
 *.tsbuildinfo
 
-### Tailwind / PostCSS ###
-.postcssrc
-tailwind.config.js
-tailwind.config.cjs
-tailwind.config.ts
-
 ### TypeScript ###
 *.tsbuildinfo
 
